@@ -1,6 +1,6 @@
 
 /***** 	Implementation : RC6 
- * 		  Author: YASH DIVECHA
+ * 	Author: YASH DIVECHA
  *
  *****/
 
