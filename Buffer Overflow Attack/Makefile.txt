@@ -1,0 +1,6 @@
+all:
+	gcc ./vuln_program.c -fno-stack-protector -z execstack -static -o vuln_program
+	gcc -g -o ./attack.string attack.string.c
+
+clean:
+	rm -rf attack.string vuln_program attack.input
